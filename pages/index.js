@@ -1,4 +1,5 @@
 import NavigationBar from "../src/Components/shared/navigationBar/NavigationBar";
+import Dashboard from "../src/Components/dashboard/Dashboard";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
