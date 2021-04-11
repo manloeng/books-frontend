@@ -46,3 +46,14 @@
 .sidenav a:hover {
   color: #f1f1f1;
 }
+
+@media screen and (max-width: 768px) {
+  .topnav {
+    display: none;
+  }
+
+  .sidenav {
+    height: 0;
+    width: 0;
+  }
+}
