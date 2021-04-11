@@ -1,5 +1,5 @@
 import Link from "next/link";
-import navigationStyles from "../../../styles/Nav.module.css";
+import navigationStyles from "../../../../styles/Nav.module.css";
 import BackButton from "./BackButton";
 
 export default function TopNavigationBar() {
