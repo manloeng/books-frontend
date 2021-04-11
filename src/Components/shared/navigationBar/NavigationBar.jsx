@@ -15,13 +15,13 @@ export default function NavigationBar() {
   });
 
   return (
-    <div>
-      {isMobile && (
+    <>
+      {!isMobile && (
         <>
           <TopNavigationBar></TopNavigationBar>
           <SideNavigationBar></SideNavigationBar>
         </>
       )}
-    </div>
+    </>
   );
 }
