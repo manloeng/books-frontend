@@ -43,3 +43,10 @@ button {
 button:hover {
   background-color: #5e6bfa;
 }
+
+@media screen and (max-width: 768px) {
+  html,
+  body {
+    margin: 0;
+  }
+}
