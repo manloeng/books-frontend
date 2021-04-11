@@ -20,12 +20,12 @@ export default function SideNavigationBar() {
         <Link href="/">Home</Link>
       </div>
       <div>
-        <Link href="/search">
+        <Link href="/">
           <a>
             <FontAwesomeIcon icon={faListAlt}></FontAwesomeIcon>
           </a>
         </Link>
-        <a href="/search">Search</a>
+        <a href="/">Search</a>
       </div>
     </nav>
   );
