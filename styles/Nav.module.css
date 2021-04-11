@@ -1,0 +1,48 @@
+.topnav {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 0.01rem;
+  border-bottom: solid 0.1rem #333;
+}
+
+.navContent {
+  text-align: end;
+}
+
+.topnav a {
+  padding: 1rem 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.topnav a:hover {
+  color: #333;
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  min-width: 250px;
+  top: 0;
+  left: 0;
+  background-color: #272e38;
+  padding-top: 3rem;
+}
+
+.sidenav div {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.sidenav div a {
+  margin: 0.5rem;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
